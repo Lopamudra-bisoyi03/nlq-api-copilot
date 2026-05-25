@@ -50,22 +50,25 @@ export default function App() {
         minHeight: "100vh",
         color: "white",
         fontFamily: "Arial",
-        padding: "40px",
+        padding: "60px 80px",
+        width: "100%",
       }}
     >
       <div
         style={{
-          maxWidth: "900px",
-          margin: "0 auto",
+          maxWidth: "100%"
+         
         }}
       >
         <h1
           style={{
-            fontSize: "48px",
+            fontSize: "56px",
+            fontWeight: "700",
+            letterSpacing: "-1px",
             marginBottom: "10px",
           }}
         >
-          NLQ API Copilot
+            Agentic API Copilot
         </h1>
 
         <p
@@ -81,6 +84,7 @@ export default function App() {
         <div
           style={{
             background: "#111827",
+            boxShadow: "0 0 40px rgba(0,0,0,0.3)",
             padding: "30px",
             borderRadius: "16px",
             border: "1px solid #1e293b",
@@ -108,6 +112,8 @@ export default function App() {
             style={{
               marginTop: "20px",
               background: "#2563eb",
+              fontWeight: "600",
+              transition: "0.2s ease",
               border: "none",
               color: "white",
               padding: "14px 24px",
