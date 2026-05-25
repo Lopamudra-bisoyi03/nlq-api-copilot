@@ -1,3 +1,4 @@
+![NLQ API Copilot Banner](assets/architecture-banner.png)
 # NLQ API Copilot
 ### Natural Language → API Router using Claude Tool-Calling
 
